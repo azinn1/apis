@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRUD de Exercícios</title>
+<link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>CRUD de Exercícios</h1>
+    <form id="exercicio-form">
+        <input type="text" id="nome" placeholder="Nome do exercício" required>
+        <input type="text" id="grupoMuscular" placeholder="Grupo Muscular" required>
+        <input type="number" id="series" placeholder="Séries" required>
+        <input type="number" id="repeticoes" placeholder="Repetições" required>
+        <button type="submit" id="submit-btn">Adicionar</button>
+    </form>
+    <ul id="exercicios-list"></ul>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
